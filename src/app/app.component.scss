@@ -1,0 +1,31 @@
+.clock {
+    font-size: 172px;
+    width: 65%;
+    margin: auto;
+}
+
+.timer-container {
+    width: 35%;
+    margin: auto;
+
+    .time-selectors {
+        display: flex;
+        justify-content: space-between;
+
+        .time-selector {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            label {
+                font-size: 24px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    .actions {
+        display: flex;
+        justify-content: space-around;
+    }
+}
